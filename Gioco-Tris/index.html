@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gioco del Tris</title>
+    <link rel="stylesheet" href="css/Style.css" type="text/css">
+</head>
+<body>
+    <div class="dice">
+     <p class="Giocatore1" id="G1">Giocatore 1</p>
+     <p class="Giocatore2" id="G2">Giocatore 2</p>
+    </div>
+    <div class="pt-4 mb-5" style='text-align:center' >
+        <img id="1" src="img/0.gif" onClick="cliccami(1),controllo(1)"><img id="2" src="img/0.gif" onClick="cliccami(2),controllo(2)"><img id="3" src="img/0.gif" onClick="cliccami(3),controllo(3)"><br>
+        <img id="4" src="img/0.gif" onClick="cliccami(4),controllo(4)"><img id="5" src="img/0.gif" onClick="cliccami(5),controllo(5)"><img id="6" src="img/0.gif" onClick="cliccami(6),controllo(6)"><br>
+        <img id="7" src="img/0.gif" onClick="cliccami(7),controllo(7)"><img id="8" src="img/0.gif" onClick="cliccami(8),controllo(8)"><img id="9" src="img/0.gif" onClick="cliccami(9),controllo(9)">
+    </div>
+    <br>
+		    <button type="button" class="butn" onClick="editNames()" id="btn1">Modifica Nomi</button> 
+            <button type="button" class="butn"  id="btn2">Giocatore 1</button> 
+            <button type="button" class="butn"  id="btn3">Giocatore 2 </button>
+    
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+ <!--Custom JS-->
+ <script src="script/js.js"></script>
+</body>
+</html>
