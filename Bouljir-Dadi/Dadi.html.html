@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gioco del 15</title>
+    <link rel="stylesheet" href="css/Style.css" type="text/css">
+    <script src="js/JavaScript.js"></script>
+</head>
+<body>
+    <div class="dice"> 
+        <p class="Giocatore1" id="G1">Giocatore 1</p>
+        <p class="Giocatore2" id="G2">Giocatore 2</p> 
+    </div>
+    <div class="center" id=container>
+        <img href="#" src="imag/R1.jpg" name="dado1r">
+        <img href="#" src="imag/V1.jpg" name="dado2v">
+    </div>
+    <br><br>
+		    <button type="button" class="butn" onClick="editNames()" id="btn1">Modifica Nomi</button> 
+            <button type="button" class="butn" onClick="Animazione1() , Animazione2()" id="btn2">Giocatore 1</button> 
+            <button type="button" class="butn" onClick="Animazione1() , Animazione2()" id="btn3">Giocatore 2 </button> 
+            <button type="button" class="butn" onClick="stopR(), stopV(), punteggio1,stampaPunteggio1(), ricarica()" id="btn4">Stop 1</button>
+            <button type="button" class="butn" onClick="stopR(), stopV(), punteggio2,stampaPunteggio2(), ricarica()" id="btn5">Stop 2</button> 
+</body>
+</html>
